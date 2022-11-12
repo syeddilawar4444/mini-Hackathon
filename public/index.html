@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./createclass.css"> -->
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form-box">
+            <h1>LOGIN</h1>
+            <div class="form-container">
+                <div class="form-controls">
+                    <label for="Email">Email</label>
+                    <input id="Email" name="email" placeholder="Enter Email">
+                </div>
+                <div class="form-controls">
+                    <label for="last-name">Password</label>
+                    <input type="password"  name="password" placeholder="Enter Password ..">
+                </div>
+            
+                <div class="button-container">
+                    <button type="submit" onclick="login()">LOGIN</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+   
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="./config/firebase.js"></script>
+    <script type="module" src="./index.js"></script>
+
+</body>
+
+</html>

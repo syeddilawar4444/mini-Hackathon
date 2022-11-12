@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Classes</title>
+    <link rel="stylesheet" href="../style.css">
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+     <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Smit_International.svg/1200px-Smit_International.svg.png" type="image/x-icon">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="app" href="./class.html">Attendence-App</a>
+          <button class="navbar-toggler" id="button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- <li class="nav-item">
+                <a class="nav-link " id="createclass" aria-current="page" href="./class/class.html">Create-Classes</a>
+              </li> -->
+              
+              <li class="nav-item">
+                <a class="nav-link" id="createstudent" href="../student/student.html">Create-Students</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="student" href="../Attandance/attandance.html">Attandance Mark</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container">
+        <div class="form-box">
+            <h1>SMIT Create Classes</h1>
+            
+
+                <div class="form-container">
+                    <div class="form-controls">
+                        <label for="first-name">Teacher’s name</label>
+                        <input id="first-name" name="first-name" placeholder="Enter Your Teacher Name">
+                    </div>
+                    <div class="form-controls">
+                        <label for="last-name"> Class Timing</label>
+                        <input id="last-name" name="last-name" placeholder="Enter Your Class Timing">
+                    </div>
+                    <div class="form-controls">
+                        <label for="Schedule of Classes">Schedule of Classes</label>
+                        <input type="text" id="Schedule of Classes" name="Schedule of Classes" placeholder="Enter Schedule of Classes">
+                    </div>
+                    <div class="form-controls">
+                        <label for="Section Name">Section Name</label>
+                        <input type="text" id="Section Name" name="Section Nam" placeholder="Enter Section Name">
+                    </div>
+                    <div class="form-controls">
+                        <label for="Course Name">Course Name</label>
+                        <input type="text" id="SCourse Name" name="Course Name" placeholder="Enter Course Name">
+                    </div>
+                    <div class="form-controls">
+                        <label for="Batch Number">
+                            Batch Number
+                        </label>
+                        <input type="number" id="Batch Number" name="number" placeholder="Enter Batch No 01">
+                    </div>
+                   
+                    
+                    <!-- <div class="form-controls">
+                        <label for="job-role">Teacher’s name</label>
+                        <select name="job-role" id="tacher-name">
+                            <option value="">Select</option>
+                            <option value="Rizwan Jamal">Rizwan Jamal </option>
+                            <option value="Kashif Suleman">Kashif Suleman</option>
+                            <option value="Ghous Ahmed">Ghous Ahmed</option>
+                            <option value="Haider Ali">Haider Ali</option>
+                        </select>
+                    </div>
+
+                    <div class="form-controls">
+                        <label for="job-role">Select Class Timing</label>
+                        <select name="job-role" id="class-timing">
+                            <option value="">Select</option>
+                            <option value="(9am to 11am)">(9am to 11am)</option>
+                            <option value="(11am to 1pm)">(11am to 1pm)</option>
+                            <option value="(1pm to 3pm)">(1pm to 3pm)</option>
+                            <option value="(9pm to 11pm)">(9pm to 11pm)</option>
+                        </select>
+                    </div>
+                    <div class="form-controls">
+                        <label for="job-role">Schedule of Classes</label>
+                        <select name="job-role" id="Schedule-classes">
+                            <option value="">Select</option>
+                            <option value="MWF">MWF</option>
+                            <option value="TTS">TTS</option>
+                           >
+                        </select>
+                    </div>
+                    <div class="form-controls">
+                        <label for="job-role">Section Name</label>
+                        <select name="job-role" id="section-name">
+                            <option value="">Select</option>
+                            <option value="A">A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="d">D</option>
+                        </select>
+                    </div>
+
+                    <div class="form-controls">
+                        <label for="job-role">Course Name</label>
+                        <select name="job-role" id="course-name">
+                            <option value="">Select</option>
+                            <option value="web and app development">web and app development</option>
+                            <option value="Graphic desining">Graphic desining</option>
+                            <option value="CA">CA</option>
+                            <option value="Mobile Repairing">Mobile Repairing</option>
+                        </select>
+                    </div>
+
+
+                    <div class="form-controls">
+                        <label for="job-role">Select Batch</label>
+                        <select name="job-role" id="batch-name">
+                            <option value="">Select</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+
+                        </select>
+                    </div> -->
+
+
+
+
+
+
+
+                    <!-- <div class="textarea-controls">
+                        <label for="address">Address</label>
+                        <textarea name="address" id="address" cols="30" rows="3"></textarea>
+                    </div>
+                    <div class="form-controls">
+                        <label for="city">City</label>
+                        <select name="city" id="city">
+                            <option value="">select city</option>
+                            <option value="Karachi">Karachi</option>
+                            <option value="islamabad">Islamabad</option>
+                            <option value="lahore">Lahore</option>
+                            <option value="multan">Multan</option>
+                        </select>
+                    </div>
+                    <div class="form-controls">
+                        <label for="pincode">Pincode</label>
+                        <input type="number" id="pincode" name="pincode" placeholder="Enter Pincode">
+                    </div>
+                    <div class="form-controls">
+                        <label for="dateof-birth">Date Of Birth</label>
+                        <input value="2022-10-25" type="date" id="dateof-birth" name="date">
+                    </div>
+                    <div class="form-controls">
+                        <label for="images">Date Of Birth</label>
+                        <input type="file" id="images" name="images">
+                    </div>
+                </div> -->
+                    <div class="button-container">
+                        <button onclick="addClasses()" type="submit">Submit</button>
+                    </div>
+            
+        </div>
+
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script type="module" src="../config/firebase.js"></script>
+    <script type="module" src="./class.js"></script>
+
+</body>
+
+</html>
+<!-- SYED DILAWAR HUSSAIN -->

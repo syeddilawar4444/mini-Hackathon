@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.form-box{
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 165px;
+    background-color: white;
+    box-shadow: 5px 3px 6px  pink;
+    border-radius: 5px;
+}
+.form-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+}
+.form-controls{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+input, select,textarea{
+    padding: 6px 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 15px;
+}
+input:focus{
+    outline-color: gray;
+}
+.button-container{
+    display: flex;
+    margin-top: 20px;
+
+    justify-content: flex-end;
+}
+.button-container button{
+    color: white;
+    font-size: 16px;
+    padding: 5px 15px;
+    background-color: red;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: 0.4s ease-in;
+    
+}
+.button-container button:hover{
+    background-color: gray;
+    transition: 0.4s ease-out;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.textarea-controls{
+    grid-column: 1 /span 2;
+}
+.textarea-controls textarea{
+    width: 100%;
+}
+
+
+
+#createclass{
+    color: white;
+}
+
+#app{
+    color: white;
+}
+
+#class{
+    color: white;
+}
+
+#createstudent{
+    color: white;
+}
+
+#student{
+    color: white;
+}
+
+@media (max-width:460px) {
+    .textarea-controls{
+        grid-column: 1 /span 1;
+    }
+}
+
+
+/* SYED DILAWAR HUSSAIN */
